@@ -18,7 +18,7 @@ import numpy as np
 # Sorry this is a mess
 
 # Rapid API key for Visual Crossing Weather API
-DarkSky_API_KEY= 'somethingsomethingsomething'
+API_KEY= 'somethingsomethingsomething'
 
 country_UTC_time= {
     '''
@@ -1144,7 +1144,7 @@ def getWeatherData(lat,lng,date):
         "shortColumnNames" : "0"} # 1 : short names; 0 : long names
     # Headers
     headers= {
-        'x-rapidapi-key'   : "366729af80mshc2f73e61ee47c73p10438bjsn4e4ce58169d8",
+        'x-rapidapi-key'   : "whoops",
         'x-rapidapi-host'  : "visual-crossing-weather.p.rapidapi.com"
     }
 
